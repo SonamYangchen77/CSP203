@@ -6,4 +6,6 @@ const db = pgp({
     database: process.env.DB_NAME || 'onlineBookStore',
     user: process.env.DB_USER || 'postgres', 
     password: process.env.DB_PASS || 'sonamyangchen' });
+
+    
 module.exports = db;
